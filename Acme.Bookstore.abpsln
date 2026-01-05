@@ -1,0 +1,62 @@
+{
+  "id": "5d60caca-49fd-4519-b403-0ddfea5c932e",
+  "creationTime": "01/05/2026 04:26:32 +00:00",
+  "template": "app",
+  "versions": {
+    "AbpFramework": "10.0.1",
+    "AbpStudio": "2.1.4",
+    "TargetDotnetFramework": "net10.0"
+  },
+  "modules": {
+    "Acme.Bookstore": {
+      "path": "Acme.Bookstore.abpmdl",
+      "folder": "main"
+    }
+  },
+  "runProfiles": {
+    "Default": {
+      "path": "etc/abp-studio/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+      "ignoredUrls": []
+    }
+  },
+  "creatingStudioConfiguration": {
+    "template": "app",
+    "createdAbpStudioVersion": "2.1.4",
+    "creationTool": "ABP Studio UI",
+    "tiered": "false",
+    "runInstallLibs": "",
+    "useLocalReferences": "false",
+    "multiTenancy": "true",
+    "includeTests": "false",
+    "kubernetesConfiguration": "false",
+    "uiFramework": "mvc",
+    "mobileFramework": "none",
+    "distributedEventBus": "none",
+    "databaseProvider": "ef",
+    "runDbMigrator": "",
+    "databaseManagementSystem": "sqlserver",
+    "separateTenantSchema": "false",
+    "createInitialMigration": "",
+    "theme": "leptonx-lite",
+    "themeStyle": "",
+    "themeMenuPlacement": "",
+    "publicWebsite": "false",
+    "socialLogin": "false",
+    "sampleCrudPage": "true",
+    "selectedLanguages": [
+      "English"
+    ],
+    "defaultLanguage": "English",
+    "createCommand": "abp new Acme.Bookstore -t app --ui-framework mvc --database-provider ef --database-management-system sqlserver --theme leptonx-lite --skip-migration  --skip-migrator  --no-tests --without-cms-kit --sample-crud-page --dont-run-install-libs --dont-run-bundling --no-social-logins -no-gdpr -no-openiddict-admin-ui -no-audit-logging -no-file-management -no-language-management -no-text-template-management"
+  },
+  "folders": {
+    "items": {
+      "main": {},
+      "modules": {}
+    }
+  }
+}

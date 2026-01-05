@@ -1,0 +1,88 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "5.0.1",
+      "isInstalled": true,
+      "creationTime": "01/05/2026 04:26:32 +00:00"
+    },
+    "Volo.Abp.Account": {
+      "version": "10.0.1",
+      "isInstalled": true,
+      "creationTime": "01/05/2026 04:26:32 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "10.0.1",
+      "isInstalled": true,
+      "creationTime": "01/05/2026 04:26:32 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "10.0.1",
+      "isInstalled": true,
+      "creationTime": "01/05/2026 04:26:32 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "10.0.1",
+      "isInstalled": true,
+      "creationTime": "01/05/2026 04:26:32 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "10.0.1",
+      "isInstalled": true,
+      "creationTime": "01/05/2026 04:26:32 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "10.0.1",
+      "isInstalled": true,
+      "creationTime": "01/05/2026 04:26:32 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "10.0.1",
+      "isInstalled": true,
+      "creationTime": "01/05/2026 04:26:32 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {}
+    }
+  },
+  "packages": {
+    "Acme.Bookstore.Application": {
+      "path": "src/Acme.Bookstore.Application/Acme.Bookstore.Application.abppkg",
+      "folder": "src"
+    },
+    "Acme.Bookstore.Domain.Shared": {
+      "path": "src/Acme.Bookstore.Domain.Shared/Acme.Bookstore.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Acme.Bookstore.Application.Contracts": {
+      "path": "src/Acme.Bookstore.Application.Contracts/Acme.Bookstore.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Acme.Bookstore.HttpApi": {
+      "path": "src/Acme.Bookstore.HttpApi/Acme.Bookstore.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Acme.Bookstore.HttpApi.Client": {
+      "path": "src/Acme.Bookstore.HttpApi.Client/Acme.Bookstore.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Acme.Bookstore.Web": {
+      "path": "src/Acme.Bookstore.Web/Acme.Bookstore.Web.abppkg",
+      "folder": "src"
+    },
+    "Acme.Bookstore.EntityFrameworkCore": {
+      "path": "src/Acme.Bookstore.EntityFrameworkCore/Acme.Bookstore.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Acme.Bookstore.DbMigrator": {
+      "path": "src/Acme.Bookstore.DbMigrator/Acme.Bookstore.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Acme.Bookstore.Domain": {
+      "path": "src/Acme.Bookstore.Domain/Acme.Bookstore.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

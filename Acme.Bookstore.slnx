@@ -1,0 +1,16 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+    <Folder Name="/src/">
+        <Project Path="src/Acme.Bookstore.Domain/Acme.Bookstore.Domain.csproj" />
+        <Project Path="src/Acme.Bookstore.Application/Acme.Bookstore.Application.csproj" />
+        <Project Path="src/Acme.Bookstore.EntityFrameworkCore/Acme.Bookstore.EntityFrameworkCore.csproj" />
+        <Project Path="src/Acme.Bookstore.Web/Acme.Bookstore.Web.csproj" />
+        <Project Path="src/Acme.Bookstore.Domain.Shared/Acme.Bookstore.Domain.Shared.csproj" />
+        <Project Path="src/Acme.Bookstore.Application.Contracts/Acme.Bookstore.Application.Contracts.csproj" />
+        <Project Path="src/Acme.Bookstore.HttpApi/Acme.Bookstore.HttpApi.csproj" />
+        <Project Path="src/Acme.Bookstore.HttpApi.Client/Acme.Bookstore.HttpApi.Client.csproj" />
+        <Project Path="src/Acme.Bookstore.DbMigrator/Acme.Bookstore.DbMigrator.csproj" />
+    </Folder>
+</Solution>
