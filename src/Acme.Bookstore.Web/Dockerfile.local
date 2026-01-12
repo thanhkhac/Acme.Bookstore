@@ -8,7 +8,7 @@ WORKDIR /app
 
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
-RUN dotnet dev-certs https -v -ep openiddict.pfx -p d622e2b5-8190-4ef0-8e5c-efb06f44debe
+RUN dotnet dev-certs https -v -ep openiddict.pfx -p 7196c789-2839-41a2-82ba-79c2fe7dd782
 RUN chmod 644 openiddict.pfx
 
 FROM base AS final

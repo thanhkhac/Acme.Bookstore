@@ -1,6 +1,6 @@
 {
-  "id": "5d60caca-49fd-4519-b403-0ddfea5c932e",
-  "creationTime": "01/05/2026 04:26:32 +00:00",
+  "id": "92009d81-6062-431d-a8e8-7b614c28c727",
+  "creationTime": "01/05/2026 06:43:41 +00:00",
   "template": "app",
   "versions": {
     "AbpFramework": "10.0.1",
@@ -9,8 +9,7 @@
   },
   "modules": {
     "Acme.Bookstore": {
-      "path": "Acme.Bookstore.abpmdl",
-      "folder": "main"
+      "path": "Acme.Bookstore.abpmdl"
     }
   },
   "runProfiles": {
@@ -20,13 +19,15 @@
   },
   "options": {
     "httpRequests": {
-      "ignoredUrls": []
+      "ignoredUrls": [
+      
+      ]
     }
   },
   "creatingStudioConfiguration": {
     "template": "app",
     "createdAbpStudioVersion": "2.1.4",
-    "creationTool": "ABP Studio UI",
+    "creationTool": "ABP Studio CLI",
     "tiered": "false",
     "runInstallLibs": "",
     "useLocalReferences": "false",
@@ -44,19 +45,12 @@
     "theme": "leptonx-lite",
     "themeStyle": "",
     "themeMenuPlacement": "",
+    "mobileFramework": "none",
     "publicWebsite": "false",
-    "socialLogin": "false",
+    "socialLogin": "true",
     "sampleCrudPage": "true",
-    "selectedLanguages": [
-      "English"
-    ],
+    "selectedLanguages": ["English", "Arabic", "Chinese (Simplified)", "Chinese (Traditional)", "Czech", "English (United Kingdom)", "Finnish", "French", "German (Germany)", "Hindi ", "Hungarian", "Icelandic", "Italian", "Portuguese (Brazil)", "Romanian (Romania)", "Russian", "Slovak", "Spanish", "Swedish", "Turkish", ],
     "defaultLanguage": "English",
-    "createCommand": "abp new Acme.Bookstore -t app --ui-framework mvc --database-provider ef --database-management-system sqlserver --theme leptonx-lite --skip-migration  --skip-migrator  --no-tests --without-cms-kit --sample-crud-page --dont-run-install-libs --dont-run-bundling --no-social-logins -no-gdpr -no-openiddict-admin-ui -no-audit-logging -no-file-management -no-language-management -no-text-template-management"
-  },
-  "folders": {
-    "items": {
-      "main": {},
-      "modules": {}
-    }
+    "createCommand": "abp new Acme.Bookstore -t app --ui-framework mvc --database-provider ef --database-management-system sqlserver --theme leptonx-lite --skip-migration  --skip-migrator  --no-tests --without-cms-kit --sample-crud-page --dont-run-install-libs --dont-run-bundling -no-file-management"
   }
 }

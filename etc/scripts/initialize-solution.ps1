@@ -25,7 +25,7 @@ $jobs += Start-Job -Name "DbMigrator" -ScriptBlock {
 $jobs += Start-Job -Name "DevCert" -ScriptBlock {
     $ErrorActionPreference = "Stop"
     Set-Location (Join-Path $using:scriptRoot "../../src/Acme.Bookstore.Web")
-    dotnet dev-certs https -v -ep openiddict.pfx -p d622e2b5-8190-4ef0-8e5c-efb06f44debe
+    dotnet dev-certs https -v -ep openiddict.pfx -p 7196c789-2839-41a2-82ba-79c2fe7dd782
 
     if ($LASTEXITCODE -ne 0) {
         throw "dotnet dev-certs exited with code $LASTEXITCODE"

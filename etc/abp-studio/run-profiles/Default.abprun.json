@@ -2,7 +2,7 @@
   "applications": {
     "Acme.Bookstore.Web": {
       "type": "dotnet-project",
-      "launchUrl": "https://localhost:44397",
+      "launchUrl": "https://localhost:44321",
       "path": "../../../src/Acme.Bookstore.Web/Acme.Bookstore.Web.csproj",
       "kubernetesService": ".*-web$",
       "healthCheckEndpoint": "/health-status",
